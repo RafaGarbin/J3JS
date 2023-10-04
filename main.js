@@ -35,7 +35,7 @@ function tocaSomTambores(){
 function tocaSomTrombeta(){
     document.querySelector("#som_tecla_trombeta").play();}
                     
-    document.querySelector(".tecla_trombeta").onclick=tocaTrombeta;
+    document.querySelector(".tecla_trombeta").onclick=tocaSomTrombeta;
             
 function tocaSomDinheiro(){
     document.querySelector("#som_tecla_dinheiro").play();}
