@@ -16,9 +16,9 @@ function tocaSomRisada(){
 
 
 function tocaSomErrado(){
-    document.querySelector("#som_tecla_errada").play();}
+    document.querySelector("#som_tecla_errado").play();}
             
-    document.querySelector(".tecla_errada").onclick=tocaSomErrada;
+    document.querySelector(".tecla_errado").onclick=tocaSomErrado;
 
 function tocaSomGrilo(){
     document.querySelector("#som_tecla_grilo").play();}
