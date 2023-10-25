@@ -8,7 +8,7 @@ const listaDeTeclas= document.querySelectorAll(".tecla");
 //criei variável contador
 let contador=0;
 //criei o laço de repetição while, com a condicional somar um para o contador
-while (contador< listaDeTeclas.length){
+while (contador < listaDeTeclas.length){
     listaDeTeclas[0].onclick=tocaSomAplausos;
     contador = contador + 1; 
     console.log (contador);
